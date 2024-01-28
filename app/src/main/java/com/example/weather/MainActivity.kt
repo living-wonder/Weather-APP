@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
         location.text=locationgot
         updateat.text=statusgot
         weather.text=maingot
-        temperature.text=tempinC.toString()
+        temperature.text=String.format("%.3f", tempinC)
         mintemp.text=String.format("%.3f", minTempinC)
         maxtemp.text=String.format("%.3f", maxTempinC)
         sunrise.text=sunrisetime
